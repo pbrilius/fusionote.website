@@ -13,7 +13,9 @@ composer install
 
 ```shell
 cd ci4-frontend
+composer install
 chmod o+rw writable/{cache,logs} -v
+npm install
 ```
 
 ### General
