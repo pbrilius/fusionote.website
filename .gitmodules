@@ -1,0 +1,6 @@
+[submodule "slim-backend"]
+	path = slim-backend
+	url = git@github.com:pbrilius/slim-backend.git
+[submodule "ci4-frontend"]
+	path = ci4-frontend
+	url = git@github.com:pbrilius/ci4-frontend.git
