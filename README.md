@@ -40,3 +40,11 @@ docker run \
 veritus4/lamp-docker:latest
 ```
 
+### Specific
+
+Composed architecture:
+
+```shell
+docker-compose up -d
+```
+
