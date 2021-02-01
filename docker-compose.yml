@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+  backend-note:
+    image: veritus4/lamp-docker:latest
+    ports:
+      - "1428:2122"
+    restart: always
+    volumes:
+      - ./slim-backend:/srv/www/vhosts/slim.starter
+  frontend-note:
+    image: veritus4/lamp-docker:latest
+    ports:
+      - "1423:2121"
+    restart: always
+    volumes:
+      - ./ci4-frontend:/srv/www/vhosts/ci4.starter
